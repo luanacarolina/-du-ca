@@ -87,6 +87,7 @@ p{
     font-size: 26px;
     color: #FFFFFF;
     text-align: center;
+    box-shadow: none;
 }
 .tabela{
     position: absolute;
@@ -121,7 +122,7 @@ p{
    font-family: Arial, Helvetica, sans-serif;
    font-weight: bold;
    height: 100px;
-   width: 200px;
+   width: 400px;
    display: flex;
    align-items: center;
    justify-content: center ;
@@ -135,6 +136,7 @@ p{
     display: flex;
     align-items: center;
     justify-content: center ; 
+    box-shadow: none;
 }
 h1{
     font-family: Arial, Helvetica, sans-serif;
@@ -186,10 +188,56 @@ h2{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 26px;
     color:white;
-    text-align: center;
-    font-weight: bold;
-    float: left;
+    
 
  
 
 }
+.bt-vd{
+    margin-top: 10px;
+    background-color:gray;
+    color:white;
+    border: none;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   height: 100px;
+   width: 200px;
+   display: flex;
+   align-items: center;
+   justify-content: center ;
+   float: left;
+
+}
+.slider-principal8{
+    width: 100%;
+    background-color: #F15C21;
+     display: flex;
+     align-items: center;
+     justify-content: center ;
+     height: 100px;
+ }
+ .menu-footer{
+    width: 100%;
+    background-color: #42515A;
+    height: 200px;                                                                         
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+ }
+ .logo2{
+      float: left;
+    
+        width: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center ;
+      
+    
+ }
+ .menu2{
+    width:60%;
+    float: right;
+    display: inline-block;
+    
+}
+

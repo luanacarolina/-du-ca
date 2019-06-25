@@ -232,4 +232,10 @@ h2{
     display: inline-block;
     
 }
-
+.slider-principal9{
+    width: 100%;
+    background-color:#FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center ;
+}

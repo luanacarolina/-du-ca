@@ -126,11 +126,11 @@ p{
 .slider-principal4{
     width: 100%;
     background-color:#FFFFFF;
-    height: 400px;
+    height: 350px;
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
- 
+    align-items: center;
     justify-content: center ; 
     box-shadow: none;
 }
@@ -242,4 +242,18 @@ h2{
   display: flex;
   align-items: center;
   justify-content: center ;
+}
+.voltar-ao-topo {
+    position: fixed;
+    bottom: 2em;
+    right: 2em;
+    text-decoration: none;
+    color:orange;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 12px;
+    padding: 1em;
+   
+}
+.voltar-ao-topo:hover {
+    background-color: rgba(0, 0, 0, 0.6);
 }

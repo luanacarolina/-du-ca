@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
-<meta charset="UTF-8">
+
 <head>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <!-- Facebook Pixel Code -->
@@ -37,18 +36,18 @@
             <a href="#!" class="brand-logo"><img src="imagens/Grupo 55.svg"></a>
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
-                <li><a href="sass.html"></a></li>
-                <li><a href="badges.html"></a></li>
-                <li><a href="collapsible.html"></a></li>
-                <li><a href="https://www.sympla.com.br/capao-carreiras__564497" target="_blank"></a></li>
+                <li><a href="#realização">Realização</a></li>
+                <li><a href="#programação">Programação</a></li>
+                <li><a href="#localização">Localização</a></li>
+                <li><a href="https://www.sympla.com.br/capao-carreiras__564497" target="_blank">Inscreva-se</a></li>
             </ul>
         </div>
     </nav>
 
     <ul class="sidenav" id="mobile-demo">
-        <li><a href="sass.html">Sobre Nós</a></li>
-        <li><a href="badges.html">Programação</a></li>
-        <li><a href="collapsible.html">Localização</a></li>
+        <li><a href="#realização">Realização</a></li>
+        <li><a href="#programação">Programação</a></li>
+        <li><a href="#localização">Localização</a></li>
         <li><a href="https://www.sympla.com.br/capao-carreiras__564497" target="_blank">Inscreva-se</a></li>
     </ul>
     </ul>
@@ -62,10 +61,10 @@
     <div class="col-100">
         <div class="slider-principal2">
             <p>
-                O Capão Carreiras é um evento sobre empreendedorismo , inovação e criatividade realizado pelo<br><br>
-                UNASPinova. É a junção da Semana de Empreendedorismo, do curso de Administração, e da TechWeek, do
+                O CapãoCarreiras é um evento sobre Empreendedorismo , Inovação e Criatividade realizado pelo<br><br>
+                UNASPinova.É a junção da semana de Empreendedorismo do curso de Administração e da TechWeek do
                 curso<br><br>
-                de Analise e Desenvolvimento de Sistemas, do UNASP, campus São Paulo.<br><br>
+                de Analise e Desenvolvimento de Sistemas do UNASP campus São Paulo.<br><br>
 
             </p>
 
@@ -99,7 +98,7 @@
 
                 <script>
                     // Set the date we're counting down to
-                    var countDownDate = new Date("jun 27, 2019 19:00:00").getTime();
+                    var countDownDate = new Date("jun 27, 2019 18:55:00").getTime();
 
                     // Update the count down every 1 second
                     var x = setInterval(function () {
@@ -131,18 +130,6 @@
                     }, 1000);
 
                 </script>
-                <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-                <!-- Global site tag (gtag.js) - Google Analytics -->
-                <script async src="https://www.googletagmanager.com/gtag/js?id=UA-142684832-1"></script>
-                <script>
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-
-                gtag('config', 'UA-142684832-1');
-                </script>
 
                 <div class="col-100">
                     <div class="slider-principal8">
@@ -155,19 +142,19 @@
         <div class="slider-principal4">
             <h1><u>Presenças Confirmadas</u></h1>
         </div>
-            
-        <div class="slider-principal666">
-                <div class="item">
-                    <img src="imagens/259aa091-f84c-4174-bab6-d2f6b89919aa.jpg">
-                    <img src="imagens/d34ee487-c6c8-4496-9210-b163c4d20a9a.jpg">
-                    <img src="imagens/259aa091-f84c-4174-bab6-d2f6b89919aa.jpg">
-                </div>
-                <div><p></p></div>
+        <div class="col-100">
+            <div class="slider-principal9"><img src="imagens/palestrante_mi.png"><img src="imagens/palestrante_gu.png">
+            </div>
+        </div>
+    </div>
+    <div class="col-100">
+        <div class="slider-principal4">
+
         </div>
     </div>
     <div class="col-100">
         <div class="slider-principal9">
-            <h1><u>PROGRAMAÇÃO</u></h1>
+            <h1 id="programação"><u>PROGRAMAÇÃO</u></h1>
 
             <table id="tabela">
 
@@ -184,7 +171,9 @@
                         <h3>19h15</h3>
                     </td>
                     <td class="td2">
-                        <h3>Michelle Fernandes - CEO da Boutique de Kriola [Do Capão pro Mundo]</h3>
+                        <h3>Michelle Fernandes
+                            CEO
+                            Boutique de Krioula</h3>
                     </td>
                     </td>
                 </tr>
@@ -193,7 +182,9 @@
                         <h3>20h</h3>
                     </td>
                     <td class="td2">
-                        <h3>Palestra sobre educação financeira com [EM BREVE]</h3>
+                        <h3>Gustavo Andrade
+                            CEO
+                            The Bridge Conecta</h3>
                     </td>
                 </tr>
                 <tr>
@@ -214,7 +205,7 @@
     </div>
     <div class="col-100">
         <div class="slider-principal4">
-            <h1><u>Localização</u></h1>
+            <h1 id="localização"><u>Localização</u></h1>
 
         </div>
         <div class="col-100">
@@ -226,11 +217,16 @@
     </div>
     <div class="col-100">
         <div class="slider-principal4">
-            <h1><u>Apoio</u></h1>
+            <h1 id="realização"><u>Realização</u></h1>
         </div>
         <div class="col-100">
-            <div class="slider-principal4">
-                <img src="imagens/259aa091-f84c-4174-bab6-d2f6b89919bb.jpg">
+            <div class="slider-principal4"><img src="imagens/apoio_bridge_conecta.png"><img
+                    src="imagens/apoio_conhecimento_da_humanidade.png">
+            </div>
+        </div>
+        <div class="col-100">
+            <div class="slider-principal4"><img src="imagens/apoio_escola_perspectiva.png" /><img
+                    src="imagens/apoio_unesp.png">
             </div>
         </div>
     </div>
